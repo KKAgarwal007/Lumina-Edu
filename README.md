@@ -2,6 +2,33 @@
 
 A high-fidelity, highly interactive student learning dashboard built with **Next.js (App Router)**, **Tailwind CSS**, **Framer Motion**, and **Supabase**.
 
+## Getting Started / Setup
+
+Follow these steps to run the project locally:
+
+1. **Clone the repository** (or navigate to the project directory):
+   ```bash
+   cd d:/NextJS/Internship
+   ```
+
+2. **Install Dependencies**:
+   ```bash
+   npm install
+   ```
+
+3. **Environment Setup**:
+   - Rename `.env.example` to `.env.local`.
+   - Update `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` with your project credentials from the Supabase dashboard.
+
+4. **Database Setup**:
+   Ensure you have run all provided SQL scripts in your Supabase SQL Editor to create the necessary tables (`profiles`, `activity_logs`, `courses`, `milestones`) and mock data.
+
+5. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+   Open [http://localhost:3000](http://localhost:3000) in your browser.
+
 ## Architectural Choices
 
 ### Server/Client Component Split
